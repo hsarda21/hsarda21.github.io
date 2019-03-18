@@ -345,3 +345,17 @@ td.info,.goalstext
   from {opacity: .4}
   to {opacity: 1}
 }
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
